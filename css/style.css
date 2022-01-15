@@ -1,0 +1,43 @@
+/* ------------------
+---------------------font------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ------------------
+--------------------- Header ---------------------- */
+.influencer-title {
+    margin-left: 5%;
+    font-weight: 700;
+}
+h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+.flex-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+.flex-container img {
+    width: 80%;
+}
+.width-half {
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.button {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+/* --------------------
+----------------------- Main ------------------------ */
+
