@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+
 }
 .container {
     background-color: #FFFFFF;
@@ -68,14 +69,14 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    /* padding-left: 30px;
-    padding-right: 30px; */
     background-color: rgb(252, 247, 247);
-    position: absolute;
+    /* position: absolute; */
     width: 1047px;
     height: 1662px;
     left: 196px;
     top: 750px;
+    margin-left: 150px;
+    margin-bottom: 100px;
 }
 .collection {
     padding-left: 20px;
@@ -116,4 +117,12 @@ img {
 .hr {
     clear: both;
     visibility: hidden;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 200px;
+    padding-top: 10px;
+
 }
