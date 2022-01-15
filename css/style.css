@@ -1,14 +1,24 @@
-/* ------------------
----------------------font------------------------- */
+/* ------------------------ font Style 
+===================================================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* ------------------------ common Style 
+===================================================*/
 
 body {
     font-family: 'Poppins', sans-serif;
 }
+.container {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 21px;
+}
 
-/* ------------------
---------------------- Header ---------------------- */
+/* ----------------------- Style (Start Your Journey) 
+=====================================================*/
 .influencer-title {
     margin-left: 5%;
     font-weight: 700;
@@ -21,7 +31,9 @@ h1 {
     display: flex;
     margin-bottom: 100px;
 }
-.flex-container img {
+
+.flex-container
+img {
     width: 80%;
 }
 .width-half {
@@ -38,6 +50,70 @@ h1 {
     font-size: 16px;
 }
 
-/* --------------------
------------------------ Main ------------------------ */
+/* -------------------------- hover 
+=====================================================*/
+.main-camera:hover {
+    transform: rotate(20deg);
+    transition: 1s ease-in-out;
+}
 
+/* ------------------------ Popular Collection
+=================================================== */
+
+.section-title {
+    font-size: 28px;
+    text-align: center;
+}
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    background-color: rgb(252, 247, 247);
+    position: absolute;
+    width: 1047px;
+    height: 1662px;
+    left: 196px;
+    top: 750px;
+}
+.collection {
+    padding-left: 20px;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    background-color: white;
+    border-radius: 5px;
+    width: 329px;
+    height: 550px;
+}
+.course
+.course-banner
+img {
+    width: 300px;
+    height: 256px;
+}
+.collection-info {
+    display: flex;
+    align-items: center;
+}
+.fa-star {
+    font-size: 12px;
+}
+.fa-star.filled {
+    color: #FFC014;
+}
+.fa-star.empty {
+    color: #AEAEAE;
+}
+.shifting p {
+    color: #787885;
+}
+.see-more {
+    color: #E02C6D;
+    font-weight: 700;
+    text-align: right;
+    text-decoration: none;
+}
+.hr {
+    clear: both;
+    visibility: hidden;
+}
