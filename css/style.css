@@ -30,6 +30,8 @@ h1 {
 }
 .flex-container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 100px;
 }
 
@@ -125,4 +127,60 @@ footer {
     height: 200px;
     padding-top: 10px;
 
+}
+
+
+/*--------------------------- Mobile Device 
+==============================================================*/
+
+@media only screen and (max-width: 688px) {
+    /* ---------------------- Start your Jounery 
+    ========================================================== */
+    .flex-container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        padding-bottom: 10px;
+    }
+    #box-1 h1 {
+        font-size: 25px;
+    }
+    .width-half {
+        width: 100%;
+    }
+    .flex-container img {
+        width: 100%;
+    }
+    #box-1 {
+        order: 2;
+        text-align: center;
+    }
+    #box-2 {
+        order: 1;
+        width: 60%;
+    }
+/* ----------------------- Popular Collection 
+============================================================= */
+    .start-influencer {
+        width: 100%;
+    }
+    .collections {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .collection {
+        width: 30%;
+    }
+}
+
+/*--------------------------- tablet devices 
+==============================================================*/
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    /* ---------------------- Start your Jounery 
+    ========================================================== */
+    .flex-container {
+        width: 100%;
+    }
 }
