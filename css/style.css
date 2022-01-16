@@ -12,15 +12,19 @@ body {
 
 }
 .container {
+    display: flex;
+    flex-direction: column;
     background-color: #FFFFFF;
-    padding: 30px;
+    /* padding: 30px; */
     border-radius: 5px;
-    margin-top: 21px;
+    /* margin-top: 21px; */
 }
 
 /* ----------------------- Style (Start Your Journey) 
 =====================================================*/
 .influencer-title {
+    /* display: ; */
+    /* justify-content: left; */
     margin-left: 5%;
     font-weight: 700;
 }
@@ -67,37 +71,47 @@ img {
     font-size: 28px;
     text-align: center;
 }
+
 .collections {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    background-color: rgb(252, 247, 247);
+    gap: 40px 40px;
+    /* justify-content: center; */
+    /* overflow: hidden; */
+    background-color: rgb(245, 242, 242);
     /* position: absolute; */
-    width: 1047px;
-    height: 1662px;
-    left: 196px;
-    top: 750px;
-    margin-left: 150px;
+    /* height: 100%; */
+    /* left: 196px; */
+    /* top: 750px; */
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
     margin-bottom: 100px;
 }
 .collection {
-    padding-left: 20px;
-    box-shadow: 1px 1px 1px 1px lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+    /* text-align: left; */
+    /* padding: 20px; */
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: 10px 10px 40px rgb(252, 249, 249);
     background-color: white;
     border-radius: 5px;
-    width: 329px;
-    height: 550px;
+    /* width: 300px; */
+    /* height: 550px; */
 }
-.course
-.course-banner
-img {
+.course .course-banner img {
+    /* text-align: center; */
     width: 300px;
     height: 256px;
 }
-.collection-info {
+/* .collection-info {
     display: flex;
     align-items: center;
-}
+} */
 .fa-star {
     font-size: 12px;
 }
@@ -111,10 +125,17 @@ img {
     color: #787885;
 }
 .see-more {
+    text-align: right;
+}
+.see-more a {
     color: #E02C6D;
     font-weight: 700;
-    text-align: right;
     text-decoration: none;
+    margin-right: 20%;
+    
+}
+.see-more a:visited {
+    color: red;
 }
 .hr {
     clear: both;
@@ -169,9 +190,8 @@ footer {
     .collections {
         grid-template-columns: repeat(1, 1fr);
     }
-    .collection {
-        width: 30%;
-    }
+    /* .collection {
+    } */
 }
 
 /*--------------------------- tablet devices 
@@ -180,7 +200,18 @@ footer {
 @media only screen and (min-width:688px) and (max-width:992px) {
     /* ---------------------- Start your Jounery 
     ========================================================== */
-    .flex-container {
+    /* .flex-container {
         width: 100%;
     }
+} */
+/* ----------------------- Popular Collection 
+============================================================= */
+/* .container {
+    display: flex;
+    flex-direction: column;
+    fl
+} */
+.collections {
+    grid-template-columns: repeat(2, 1fr);
+}
 }
