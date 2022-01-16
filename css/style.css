@@ -15,16 +15,12 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    /* padding: 30px; */
     border-radius: 5px;
-    /* margin-top: 21px; */
 }
 
 /* ----------------------- Style (Start Your Journey) 
 =====================================================*/
 .influencer-title {
-    /* display: ; */
-    /* justify-content: left; */
     margin-left: 5%;
     font-weight: 700;
 }
@@ -76,15 +72,8 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px 40px;
-    /* justify-content: center; */
-    /* overflow: hidden; */
+    overflow: hidden;
     background-color: rgb(245, 242, 242);
-    /* position: absolute; */
-    /* height: 100%; */
-    /* left: 196px; */
-    /* top: 750px; */
-    /* margin-left: 100px; */
-    /* margin-right: 100px; */
     margin-bottom: 100px;
 }
 .collection {
@@ -92,26 +81,17 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: 100%; */
-    /* text-align: left; */
-    /* padding: 20px; */
     border: 1px solid rgb(255, 255, 255);
     padding: 10px;
     box-shadow: 10px 10px 40px rgb(252, 249, 249);
     background-color: white;
     border-radius: 5px;
-    /* width: 300px; */
-    /* height: 550px; */
+  
 }
 .course .course-banner img {
-    /* text-align: center; */
     width: 300px;
     height: 256px;
 }
-/* .collection-info {
-    display: flex;
-    align-items: center;
-} */
 .fa-star {
     font-size: 12px;
 }
@@ -190,28 +170,16 @@ footer {
     .collections {
         grid-template-columns: repeat(1, 1fr);
     }
-    /* .collection {
-    } */
+    
 }
 
 /*--------------------------- tablet devices 
 ==============================================================*/
 
 @media only screen and (min-width:688px) and (max-width:992px) {
-    /* ---------------------- Start your Jounery 
-    ========================================================== */
-    /* .flex-container {
-        width: 100%;
-    }
-} */
 /* ----------------------- Popular Collection 
 ============================================================= */
-/* .container {
-    display: flex;
-    flex-direction: column;
-    fl
-} */
 .collections {
     grid-template-columns: repeat(2, 1fr);
-}
+    }
 }
